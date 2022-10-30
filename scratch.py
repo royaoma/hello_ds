@@ -11,3 +11,7 @@ time_series = list(price_history['Open'])
 dt_list = [pendulum.parse(str(dt)).float_timestamp for dt in list(price_history.index)]
 plt.style.use('dark_background')
 plt.plot(dt_list, time_series, linewidth=2)
+
+
+# https://www.ig.com/en/trading-strategies/10-chart-patterns-every-trader-needs-to-know-190514
+
